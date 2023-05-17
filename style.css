@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap');
+body{
+  width: 100vw;
+  height: 100vw;
+  background-color: #FAF4D3;
+  font-family: "Lato";
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: #39393A;
+}
+.page{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+h1{
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  margin:0px;
+  width: 319px;
+}
+h3{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  color: #FAF4D3;
+  margin: 0;
+}
+h4{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FAF4D3;
+  margin: 0;
+}
+h5{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FAF4D3;
+  margin: 0;
+}
+.lap_info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:8px;
+}
+.card{
+  width: 312px;
+  height: fit-content;
+  background: #FF3C38;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+}
+
+.search{
+  align-items: center;
+  gap:16px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+}
+
+.search_bar{
+  text-align: center;
+  width: 319px;
+  font-family: "Lato";
+  background-color: #FAF4D3;
+  border: 2px solid #97CCD8;
+  border-radius: 10px;  
+  height:36px;
+}
+
+.search_button{
+  font-family: "Lato";
+  width: 123px;
+  height: 34px;
+  background: #FF3C38;
+  border-radius: 10px;
+  border: #FF3C38;
+  color: #FAF4D3;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:8px;
+  width: fit-content;
+  height: fit-content;
+}
+.year_opt{
+  justify-content: center;
+  width: 319px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap:4px;
+}
+.year_button{
+  background-color: #97CCD8;
+  width: fit-content;
+  height: fit-content;
+  border-radius:10px ;
+}
+
+h2{
+  color:#FAF4D3;
+  font-size: 32px;
+  margin: 4px;
+}
+
+
+.year_button:hover{
+background-color: #FF3C38;  
+}
+
+.search_button:hover{
+  background-color: #97CCD8;
+}
